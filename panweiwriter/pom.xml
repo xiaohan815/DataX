@@ -6,10 +6,10 @@
 		<artifactId>datax-all</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>postgresqlwriter</artifactId>
-	<name>postgresqlwriter</name>
+	<artifactId>panweiwriter</artifactId>
+	<name>panweiwriter</name>
 	<packaging>jar</packaging>
-	<description>writer data into postgresql database</description>
+	<description>writer data into panwei database</description>
 
 	<dependencies>
 		<dependency>
@@ -39,11 +39,17 @@
 			<artifactId>plugin-rdbms-util</artifactId>
 			<version>${datax-project-version}</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
 			<version>42.3.3</version>
+		</dependency>
+		<!-- 磐维驱动 -->
+		<dependency>
+			<groupId>com.pccw</groupId>
+			<artifactId>panweidb</artifactId>
+			<version>20241022</version>
 		</dependency>
 
 	</dependencies>

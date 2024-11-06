@@ -15,8 +15,9 @@ public enum DataBaseType {
     DRDS("drds", "com.mysql.jdbc.Driver"),
     Oracle("oracle", "oracle.jdbc.OracleDriver"),
     SQLServer("sqlserver", "com.microsoft.sqlserver.jdbc.SQLServerDriver"),
-    PostgreSQL("postgresql", "org.panweidb.Driver"),
-//    PostgreSQL("postgresql", "org.postgresql.Driver"),
+    // 磐维数据库
+    PanWei("panwei", "org.panweidb.Driver"),
+    PostgreSQL("postgresql", "org.postgresql.Driver"),
     RDBMS("rdbms", "com.alibaba.datax.plugin.rdbms.util.DataBaseType"),
     DB2("db2", "com.ibm.db2.jcc.DB2Driver"),
     ADB("adb","com.mysql.jdbc.Driver"),
@@ -65,6 +66,8 @@ public enum DataBaseType {
                 break;
             case PostgreSQL:
                 break;
+			case PanWei:
+                break;	
             case ClickHouse:
                 break;
             case RDBMS:
@@ -122,6 +125,8 @@ public enum DataBaseType {
                 break;
             case PostgreSQL:
                 break;
+			case PanWei:
+                break;	
             case ClickHouse:
                 break;
             case RDBMS:
@@ -168,6 +173,7 @@ public enum DataBaseType {
                 break;
             case DB2:
             case PostgreSQL:
+			case PanWei:
             case KingbaseES:
             case Oscar:
                 break;
@@ -195,6 +201,7 @@ public enum DataBaseType {
                 break;
             case DB2:
             case PostgreSQL:
+			case PanWei:
             case KingbaseES:
             case Oscar:
                 break;
@@ -222,6 +229,8 @@ public enum DataBaseType {
                 break;
             case PostgreSQL:
                 break;
+			case PanWei:
+                break;	
             case KingbaseES:
                 break;
             case Oscar:

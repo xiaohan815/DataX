@@ -18,7 +18,6 @@ import java.io.File;
 import java.sql.*;
 import java.util.*;
 import java.util.concurrent.*;
-import org.panweidb.Driver;
 
 public final class DBUtil {
     private static final Logger LOG = LoggerFactory.getLogger(DBUtil.class);
