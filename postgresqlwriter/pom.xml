@@ -45,6 +45,12 @@
 			<artifactId>postgresql</artifactId>
 			<version>42.3.3</version>
 		</dependency>
+		<!-- 磐维驱动 -->
+		<dependency>
+			<groupId>com.pccw</groupId>
+			<artifactId>panweidb</artifactId>
+			<version>20241022</version>
+		</dependency>
 
 	</dependencies>
 	<build>
