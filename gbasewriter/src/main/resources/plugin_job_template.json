@@ -1,0 +1,17 @@
+{
+    "name": "gbasewriter",
+    "parameter": {
+        "username": "",
+        "password": "",
+        "column": [],
+        "preSql": [],
+        "connection": [
+            {
+                "jdbcUrl": "",
+                "table": []
+            }
+        ],
+        "preSql": [],
+        "postSql": []
+    }
+}

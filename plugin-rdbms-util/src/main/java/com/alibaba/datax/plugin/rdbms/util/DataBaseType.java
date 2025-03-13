@@ -17,6 +17,7 @@ public enum DataBaseType {
     SQLServer("sqlserver", "com.microsoft.sqlserver.jdbc.SQLServerDriver"),
     // 磐维数据库
     PanWei("panwei", "org.panweidb.Driver"),
+    GBASE("gbase", "com.gbasedbt.jdbc.Driver"),
     PostgreSQL("postgresql", "org.postgresql.Driver"),
     RDBMS("rdbms", "com.alibaba.datax.plugin.rdbms.util.DataBaseType"),
     DB2("db2", "com.ibm.db2.jcc.DB2Driver"),

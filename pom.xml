@@ -84,6 +84,7 @@
         <module>dorisreader</module>-->
         <module>postgresqlreader</module>
         <module>panweireader</module>
+        <module>gbasereader</module>
         <!-- writer -->
         <!--<module>mysqlwriter</module>
         <module>starrockswriter</module>
@@ -131,6 +132,7 @@
         <module>neo4jwriter</module>-->
         <module>postgresqlwriter</module>
         <module>panweiwriter</module>
+        <module>gbasewriter</module>
         <!-- common support module -->
         <module>plugin-rdbms-util</module>
         <module>plugin-unstructured-storage-util</module>
