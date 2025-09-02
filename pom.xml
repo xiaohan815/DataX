@@ -80,8 +80,8 @@
         <module>loghubreader</module>
         <module>datahubreader</module>
         <module>starrocksreader</module>
-        <module>sybasereader</module>
-        <module>dorisreader</module>-->
+        <module>sybasereader</module>-->
+        <module>dorisreader</module>
         <module>postgresqlreader</module>
         <module>panweireader</module>
         <module>gbasereader</module>
@@ -125,11 +125,11 @@
         <module>datahubwriter</module>
         <module>cassandrawriter</module>
         <module>clickhousewriter</module>
-        <module>doriswriter</module>
         <module>selectdbwriter</module>
         <module>adbmysqlwriter</module>
         <module>sybasewriter</module>
         <module>neo4jwriter</module>-->
+        <module>doriswriter</module>
         <module>postgresqlwriter</module>
         <module>panweiwriter</module>
         <module>gbasewriter</module>
@@ -255,7 +255,7 @@
         <repository>
             <id>pccwPublic</id>
             <name>PCCW-Public Repository</name>
-            <url>http://114.251.247.99:9080/repository/maven-public/</url>
+            <url>http://172.25.105.99:9080/repository/maven-public/</url>
             <snapshots>
                 <enabled>true</enabled>
                 <updatePolicy>always</updatePolicy>

@@ -39,6 +39,7 @@ public final class DBUtil {
                                        final List<String> jdbcUrls, final String username,
                                        final String password, final List<String> preSql,
                                        final boolean checkSlave) {
+        LOG.info("dataBaseType is "+dataBaseType.getTypeName());
 
         if (null == jdbcUrls || jdbcUrls.isEmpty()) {
             throw DataXException.asDataXException(
